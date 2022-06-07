@@ -1,18 +1,25 @@
 #include "main.h"
 
 /**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
+ * print_last_digit - print the last digit of a number
+ * @n: int type number
+ * Return: return value of the last digit
  */
-int main(void)
+
+int print_last_digit(int n)
 {
 	int r;
 
-	print_last_digit(98);
-	print_last_digit(0);
-	r = print_last_digit(-1024);
-	_putchar('0' + r);
-	_putchar('\n');
-	return (0);
+	if (n < 0)
+	{
+		r = -1 * (n % 10);
+		_putchar(r + '0');
+		return (r);
+	}
+	else
+	{
+		r = n % 10;
+		_putchar(r + '0');
+		return (r);
+	}
 }
