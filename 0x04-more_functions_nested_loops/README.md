@@ -1,8 +1,10 @@
 More Functions Nested Loops Readme
-File 1 - function that checks for uppercase character.
-File 2 - function that checks for a digit (0 through 9).
-File 3 - function that multiplies two integers.
-File 4 - function that prints the numbers, from 0 to 9, followed by a new line.
+
+File 0 - function that checks for uppercase character.
+File 1 - function that checks for a digit (0 through 9).
+File 2 - function that multiplies two integers.
+File 3 - function that prints the numbers, from 0 to 9, followed by a new line.
+File 4 - function that prints the numbers, from 0 to 9, followed by a new line - do not print 2 and 4
 File 5 - function that prints 10 times the numbers, from 0 to 14, followed by a new line.
 File 6 - function that draws a straight line in the terminal.
 File 7 - function that draws a diagonal line on the terminal.
