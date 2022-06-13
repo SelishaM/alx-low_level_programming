@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_rev = prints a string, in reverse
- * @s: input variable
- * Return: Result
+ * print_rev - prints a string, in reverse
+ * @s: input
+ * Return: the result
  */
 
 void print_rev(char *s)
