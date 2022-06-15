@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * *_strcat: function that computes strings
- * @dest: parameter pointer to a char
- * @src: parameter pointer to a char
+ * *_strcat - function commute srtings
+ * @dest: param pointer to a char
+ * @src: param pointer to a char
  * Return: return value of dest
  */
 
@@ -25,6 +25,7 @@ char *_strcat(char *dest, char *src)
 		j++;
 		i++;
 	}
+
 	dest[i] = '\0';
 	return (dest);
 }
